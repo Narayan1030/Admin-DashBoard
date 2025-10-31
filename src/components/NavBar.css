@@ -1,0 +1,93 @@
+.navbar{
+    display: flex;
+    flex-direction: column;
+    width: 25.0%;
+    height: 100vh;
+    border-right: 0.5px solid gray;
+    color: white;
+    position: relative;
+}
+
+.admin-top{
+    border-bottom: 0.5px solid gray;
+    height: 250px;
+    
+}
+
+.logo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5rem ;
+    
+}
+.logo-img{
+    height: 5rem;
+    width: 6.1rem;
+}
+
+.logo-text{
+    color: white;
+    font-weight: bold;
+    font-size: 1.8rem;
+    font-family: arial;
+    letter-spacing: -0.1rem; 
+}
+
+.profile{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.profile .profile-avatar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5rem;
+    width: 5rem;
+    border-radius: 50%;
+    background-color: rgba(31, 135, 184, 0.692);
+}
+
+nav{
+    /* margin-top: 2rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+nav li{ 
+    list-style: none;
+
+}
+
+nav li a{
+    text-decoration: none;
+    display: flex;
+    gap: 3rem;
+    align-items: center;
+    color: white;
+    justify-content: flex-start;
+    border-bottom: 0.5px solid gray;
+    padding-left: 5rem;
+    font-size: 1.32rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    /* width: ; */
+    
+    &:focus{
+        border-left: 2px solid white;
+        translate: 1px
+        /* filter: drop-shadow(30px 10px 4px #4444dd); */
+    }
+}
+
+.footer{
+    position: absolute;
+    bottom: 1rem;
+    left: 7rem;
+}

@@ -1,0 +1,5 @@
+.home-container{
+    display: flex;
+    color: white;
+    gap: 1rem;
+}
