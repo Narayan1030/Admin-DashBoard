@@ -7,6 +7,7 @@ import { FaCartFlatbedSuitcase } from "react-icons/fa6";
 import { CgCopyright } from 'react-icons/cg';
 
 import "./NavBar.css"
+import { Link, Links } from 'react-router-dom';
 
 const NavBar = () => {
   return (
@@ -22,11 +23,11 @@ const NavBar = () => {
             </div>
         </div>
       <nav>
-        <li><a href="#"><IoHome />Home</a></li>
-        <li><a href="#"><GrProjects />Projects</a></li>
-        <li><a href="#"><FaUserCircle />Users</a></li>
-        <li><a href="#"><FaCartFlatbedSuitcase />Order</a></li>
-        <li><a href="#"><IoSettings />Account Setting</a></li>
+        <li><Link to='/'><IoHome />Home</Link></li>
+        <li><Link to='/projects'><GrProjects />Projects</Link></li>
+        <li><Link to='/users'><FaUserCircle />Users</Link></li>
+        <li><Link to='/orders'><FaCartFlatbedSuitcase />Order</Link></li>
+        <li><Link to='/settings'><IoSettings />Account Setting</Link></li>
       </nav>
       <div className="footer">
         <p><CgCopyright/>FourBit</p>

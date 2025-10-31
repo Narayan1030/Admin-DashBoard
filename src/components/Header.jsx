@@ -1,6 +1,7 @@
 import React from 'react'
 import './Header.css'
 import { useState, useEffect } from 'react'
+import { BsClock } from 'react-icons/bs'
 
 const Header = () => {
     const [time,setTime] = useState(new Date())
@@ -16,7 +17,7 @@ const Header = () => {
   return (
     <div className='header-container'>
       <h1>Hello Admin!! Welcome Back</h1>
-      <p>{time.toLocaleTimeString()}</p>
+      <p><BsClock/>{time.toLocaleTimeString()}</p>
     </div>
   )
 }

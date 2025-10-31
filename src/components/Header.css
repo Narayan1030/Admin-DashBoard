@@ -7,4 +7,9 @@
     border-bottom: 1px solid black;
     /* justify-content: center; */
     align-items: flex-start;
+    & p{
+        display: flex;
+        align-items: center;
+        gap: 3px;
+    }
 }
