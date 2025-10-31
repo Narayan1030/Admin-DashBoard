@@ -1,10 +1,12 @@
 import React from 'react'
-import FourbitLogo from "./../assets/fourbit logo white.png"
+import FourbitLogo from "./../assets/fourbit logo.png"
 import { IoHome,IoSettings  } from "react-icons/io5";
 import { GrProjects } from "react-icons/gr";
+import { FaUserCircle } from "react-icons/fa";
+import { FaCartFlatbedSuitcase } from "react-icons/fa6";
+import { CgCopyright } from 'react-icons/cg';
 
 import "./NavBar.css"
-import { CgCopyright } from 'react-icons/cg';
 
 const NavBar = () => {
   return (
@@ -22,6 +24,8 @@ const NavBar = () => {
       <nav>
         <li><a href="#"><IoHome />Home</a></li>
         <li><a href="#"><GrProjects />Projects</a></li>
+        <li><a href="#"><FaUserCircle />Users</a></li>
+        <li><a href="#"><FaCartFlatbedSuitcase />Order</a></li>
         <li><a href="#"><IoSettings />Account Setting</a></li>
       </nav>
       <div className="footer">

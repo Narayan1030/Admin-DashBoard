@@ -4,7 +4,7 @@
     width: 25.0%;
     height: 100vh;
     border-right: 0.5px solid gray;
-    color: white;
+    color: black;
     position: relative;
 }
 
@@ -27,7 +27,7 @@
 }
 
 .logo-text{
-    color: white;
+    color: black;
     font-weight: bold;
     font-size: 1.8rem;
     font-family: arial;
@@ -70,17 +70,17 @@ nav li a{
     display: flex;
     gap: 3rem;
     align-items: center;
-    color: white;
+    color: black;
     justify-content: flex-start;
     border-bottom: 0.5px solid gray;
     padding-left: 5rem;
     font-size: 1.32rem;
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
     /* width: ; */
     
     &:focus{
-        border-left: 2px solid white;
+        border-left: 2px solid rgba(14, 3, 3, 0.625);
         translate: 1px
         /* filter: drop-shadow(30px 10px 4px #4444dd); */
     }
